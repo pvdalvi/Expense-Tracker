@@ -120,7 +120,7 @@ function displayExpenses() {
         // Create the amount element
         const expenseAmountElement = document.createElement('div');
         expenseAmountElement.className = 'expense-amount';
-        expenseAmountElement.textContent = '₹' + expense.amount.toFixed(2);
+        expenseAmountElement.textContent = '$' + expense.amount.toFixed(2);
 
         // Append name and amount to info section
         expenseInfo.appendChild(expenseName);
@@ -156,7 +156,7 @@ function updateTotal() {
     }, 0);
 
     // Update the total amount element
-    totalAmount.textContent = '₹' + total.toFixed(2);
+    totalAmount.textContent = '$' + total.toFixed(2);
 }
 
 /**
