@@ -9,7 +9,7 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: #f5f7fa;
     min-height: 100vh;
     padding: 20px;
 }
@@ -30,7 +30,7 @@ body {
    Header
    ===================== */
 header {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: #2c3e50;
     color: white;
     padding: 30px 20px;
     text-align: center;
@@ -94,12 +94,12 @@ main {
 
 .form-group input:focus {
     outline: none;
-    border-color: #667eea;
+    border-color: #2c3e50;
 }
 
 .btn-add {
     padding: 12px 20px;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: #2c3e50;
     color: white;
     border: none;
     border-radius: 6px;
@@ -112,7 +112,7 @@ main {
 
 .btn-add:hover {
     transform: translateY(-2px);
-    box-shadow: 0 5px 20px rgba(102, 126, 234, 0.4);
+    box-shadow: 0 5px 20px rgba(44, 62, 80, 0.3);
 }
 
 .btn-add:active {
@@ -127,7 +127,7 @@ main {
 }
 
 .total-box {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: #2c3e50;
     color: white;
     padding: 20px;
     border-radius: 8px;
@@ -175,8 +175,8 @@ main {
     justify-content: space-between;
     align-items: center;
     padding: 15px;
-    background: #f8f9fa;
-    border-left: 4px solid #667eea;
+    background: #f9f9f9;
+    border-left: 4px solid #2c3e50;
     border-radius: 6px;
     transition: transform 0.2s, box-shadow 0.2s;
 }
@@ -199,7 +199,7 @@ main {
 
 .expense-amount {
     font-size: 1.2em;
-    color: #667eea;
+    color: #2c3e50;
     font-weight: bold;
 }
 
